@@ -1,0 +1,53 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Stylized portrait placeholder</title>
+  <desc id="desc">A monochrome illustration of a person standing outdoors with soft blurred branches in the background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="110" y1="60" x2="690" y2="940" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24252B"/>
+      <stop offset="0.5" stop-color="#DCDCDC"/>
+      <stop offset="1" stop-color="#F9F9F7"/>
+    </linearGradient>
+    <linearGradient id="clothes" x1="290" y1="530" x2="620" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B1C20"/>
+      <stop offset="1" stop-color="#08090C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(620 220) rotate(135) scale(240 240)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-50" y="-50" width="900" height="1100" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="1000" rx="40" fill="url(#bg)"/>
+  <circle cx="590" cy="180" r="170" fill="url(#glow)" opacity="0.8"/>
+
+  <g filter="url(#blur)" opacity="0.42">
+    <circle cx="120" cy="100" r="72" fill="#111111"/>
+    <circle cx="230" cy="180" r="46" fill="#111111"/>
+    <circle cx="330" cy="120" r="56" fill="#111111"/>
+    <circle cx="520" cy="90" r="52" fill="#111111"/>
+    <circle cx="660" cy="250" r="58" fill="#111111"/>
+    <circle cx="700" cy="140" r="72" fill="#111111"/>
+  </g>
+
+  <path d="M65 900C88 703 134 562 219 362C268 249 383 145 526 112C582 99 647 105 739 131C691 208 639 315 615 389C587 472 578 552 595 650C610 739 645 809 706 880C574 912 450 923 307 916C212 912 139 908 65 900Z" fill="#FFFFFF" fill-opacity="0.22"/>
+  <path d="M70 899C103 720 146 587 223 412C288 269 384 175 514 140C578 123 649 124 732 146C695 221 667 300 648 370C626 454 620 525 633 613C646 700 675 782 724 875C609 904 482 918 347 915C243 913 152 908 70 899Z" fill="#ECECEC" fill-opacity="0.32"/>
+
+  <path d="M400 306C463 306 515 359 515 423C515 487 463 541 400 541C337 541 285 487 285 423C285 359 337 306 400 306Z" fill="#1A1A1E"/>
+  <path d="M357 539C381 523 407 516 433 516C469 516 498 528 528 553C579 594 611 654 621 738C633 832 618 894 596 962H198C208 865 227 793 258 737C292 676 327 638 357 621C366 586 364 559 357 539Z" fill="url(#clothes)"/>
+  <path d="M396 365C420 365 441 377 451 395C457 405 461 417 461 430C461 458 438 482 410 482C391 482 375 473 364 459C356 448 350 435 350 420C350 392 369 365 396 365Z" fill="#F3F0EA"/>
+  <path d="M353 447C366 476 376 501 380 523C382 536 378 550 368 559C350 576 335 597 320 623C310 640 302 657 294 675C282 701 273 730 266 762H535C527 721 518 689 507 661C493 624 478 598 461 582C451 574 446 561 448 548C452 522 463 497 480 468C467 479 451 489 433 496C401 510 374 509 353 447Z" fill="#121216"/>
+  <path d="M344 429C356 424 364 417 370 406C380 389 394 379 414 377C431 375 446 380 457 391C444 390 432 392 421 399C406 409 399 423 397 442C389 436 381 432 374 430C364 427 355 427 344 429Z" fill="#0D0D10"/>
+  <path d="M438 402C452 400 461 402 469 407C478 412 483 420 484 430C476 422 468 418 458 417C449 416 442 418 438 402Z" fill="#0B0B0E"/>
+  <path d="M361 493C372 506 389 513 409 513C428 513 444 507 458 495" stroke="#3A3A3F" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M70 260C120 196 165 152 232 127" stroke="#3A3A3F" stroke-width="26" stroke-linecap="round" opacity="0.45"/>
+  <path d="M78 165C133 169 176 187 220 225" stroke="#3A3A3F" stroke-width="18" stroke-linecap="round" opacity="0.28"/>
+  <path d="M210 120C265 160 303 206 328 265" stroke="#3A3A3F" stroke-width="16" stroke-linecap="round" opacity="0.28"/>
+  <path d="M528 64C571 103 610 144 641 193" stroke="#3A3A3F" stroke-width="18" stroke-linecap="round" opacity="0.22"/>
+  <path d="M647 152C664 194 669 230 666 268" stroke="#3A3A3F" stroke-width="14" stroke-linecap="round" opacity="0.2"/>
+  <circle cx="160" cy="290" r="44" fill="#FFFFFF" fill-opacity="0.18"/>
+  <circle cx="662" cy="310" r="56" fill="#FFFFFF" fill-opacity="0.14"/>
+</svg>
